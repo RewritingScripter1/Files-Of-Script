@@ -90,7 +90,7 @@ local function fadeInGui(gui)
 end
 
 wait(5) 
-getgenv().keytoclick = "C"
+getgenv().keytoclick = "Z"
 tool = Instance.new("Tool")
 tool.RequiresHandle = false
 tool.Name = "Catriona Tool"
@@ -285,7 +285,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/tenaaki/GenericAimbot
 local Settings = {
     rewrittenmain = {
         Enabled = true,
-        Key = "c",
+        Key = "z",
         DOT = true,
         AIRSHOT = true,
         NOTIF = true, 
