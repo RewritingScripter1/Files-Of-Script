@@ -23,7 +23,7 @@ if game:IsLoaded() then
         TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
         TextLabel.Size = UDim2.new(0, 675, 0, 120)
         TextLabel.Text = "★Catriona.lua★"
-        TextLabel.TextColor3 = Color3.fromRGB(228, 173, 200)
+        TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
         TextLabel.TextTransparency = 1.000
         TextLabel.TextScaled = true
         TextLabel.Font = Enum.Font.Arcade
@@ -149,6 +149,18 @@ local Window = Library:CreateWindow("Catriona.cc", Vector2.new(430, 310), Enum.K
 
 local AimingTab = Window:CreateTab("Main")
 local MiscTab = Window:CreateTab("Misc")
+local TeleportTab = Window:CreateTab("Locks")
+
+local testSection = TeleportTab:CreateSector("Rxempi Cam", "left")
+    local bladLockPrediction = 0
+   testSection:AddButton("OP Rxempi cam", function(IhateGayPeople)
+loadstring(game:HttpGet("https://pastebin.com/raw/3S2tTdA3"))();
+     end) 
+
+local testSection =  TeleportTab:CreateSector("Catriona Cam", "left")
+   testSection:AddButton("Catriona Blatant", function(IhateGayPeople)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RewritingScripter1/NoOne1sPerfect/refs/heads/main/Catriona.cc"))()
+     end) 
 
 local testSection = MiscTab:CreateSector("Other Stuff", "left")
 
@@ -184,12 +196,19 @@ local testSection = MiscTab:CreateSector("Other stuff", " right")
 
 testSection:AddButton("anti-fling", function(IhateGayPeople)
 loadstring(game:HttpGet("https://pastebin.com/raw/L5SphSrU"))()
-     end) 
+     end
+) 
 
 testSection:AddButton("Keyboard", function(IhateGayPeople)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
-     end) 
+     end
+) 
 
+testSection:AddButton("Esp ByMe", function(IhateGayPeople) 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RewritingScripter1/Files-Of-Script/refs/heads/main/BasicEsp.txt"))()
+     end
+) 
+     
 local testSection = AimingTab:CreateSector("camlock", "left")
 
 testSection:AddToggle(
