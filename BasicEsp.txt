@@ -1,7 +1,7 @@
 --//Made by Blissful#4992
 local settings = {
     Color = Color3.fromRGB(150, 150,150),
-    Size = 11,
+    Size = 8,
     Transparency = 1, -- 1 Visible - 0 Not Visible
     AutoScale = true
 }
