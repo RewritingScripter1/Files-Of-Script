@@ -93,7 +93,7 @@ wait(5)
 getgenv().keytoclick = "Z"
 tool = Instance.new("Tool")
 tool.RequiresHandle = false
-tool.Name = "Catriona Tool"
+tool.Name = "CatTool😼"
 tool.Activated:connect(function()
     local vim = game:service("VirtualInputManager")
 vim:SendKeyEvent(true, keytoclick, false, game)
@@ -101,8 +101,8 @@ end)
 tool.Parent = game.Players.LocalPlayer.Backpack
 
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Beta Script";
-    Text = "Project Catriona.lua";
+    Title = "CatHub V1";
+    Text = "Official CatHub.lua";
     Icon = "rbxassetid://11735787860";
 
 })
@@ -122,7 +122,7 @@ end)
 wait(5)
 game.StarterGui:SetCore("SendNotification", {
     Title = "Loading Script";
-    Text = "Project Catriona.lua";
+    Text = "CatHub.lua";
     Icon = "rbxassetid://11735787860";
 
 })
@@ -130,22 +130,22 @@ game.StarterGui:SetCore("SendNotification", {
 wait(3) 
 game.StarterGui:SetCore("SendNotification", {
     Title = "Loaded Script";
-    Text = "Project Catriona.lua";
+    Text = "CatHub.lua";
     Icon = "rbxassetid://11735787860";
 
 })
 
 wait(2)
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Hello Beta Testers";
-    Text = "Project Catriona.lua";
+    Title = "CatHub Is on Top";
+    Text = "CatHub.lua";
     Icon = "rbxassetid://11735787860";
 
 })
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/RewritingScripter1/Files-Of-Script/refs/heads/main/My-Ui-LibraryNew.lua"))()
 
-local Window = Library:CreateWindow("Catriona.cc", Vector2.new(430, 310), Enum.KeyCode.RightShift)
+local Window = Library:CreateWindow(" 😼Cathub.lua", Vector2.new(430, 310), Enum.KeyCode.RightShift)
 
 local AimingTab = Window:CreateTab("Main")
 local MiscTab = Window:CreateTab("Misc")
