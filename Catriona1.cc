@@ -22,7 +22,7 @@ if game:IsLoaded() then
         TextLabel.Position = UDim2.new(0.5, 0, 0.4, 0) -- Centered on the screen
         TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
         TextLabel.Size = UDim2.new(0, 675, 0, 120)
-        TextLabel.Text = "★Catriona.lua★"
+        TextLabel.Text = "★CatHub.lua★"
         TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
         TextLabel.TextTransparency = 1.000
         TextLabel.TextScaled = true
