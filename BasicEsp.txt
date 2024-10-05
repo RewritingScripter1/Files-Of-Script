@@ -1,4 +1,3 @@
-
 --//Made by Blissful#4992
 local settings = {
     Color = Color3.fromRGB(150, 150,150),
