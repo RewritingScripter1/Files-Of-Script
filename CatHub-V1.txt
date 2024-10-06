@@ -33,7 +33,7 @@ if game:IsLoaded() then
         ImageLabel.Size = UDim2.new(0, 325, 0, 370) -- Original size
         ImageLabel.Position = UDim2.new(0.5, 0, 0.4, 0) -- Start position
         ImageLabel.AnchorPoint = Vector2.new(0.5, 0.5)
-        ImageLabel.Image = "rbxassetid://8890685159" -- New asset ID
+        ImageLabel.Image = "rbxassetid://5009915812" -- New asset ID
         ImageLabel.ImageTransparency = 1.000
 
         local tweenStartBlur = TweenService:Create(Blur, TweenInfo.new(0.70), {Size = 24})
