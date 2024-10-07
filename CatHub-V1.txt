@@ -22,7 +22,7 @@ if game:IsLoaded() then
         TextLabel.Position = UDim2.new(0.5, 0, 0.4, 0) -- Centered on the screen
         TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
         TextLabel.Size = UDim2.new(0, 675, 0, 120)
-        TextLabel.Text = "★CatHub.lua★"
+        TextLabel.Text = "★KitlerHub.lua★"
         TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
         TextLabel.TextTransparency = 1.000
         TextLabel.TextScaled = true
@@ -33,7 +33,7 @@ if game:IsLoaded() then
         ImageLabel.Size = UDim2.new(0, 325, 0, 370) -- Original size
         ImageLabel.Position = UDim2.new(0.5, 0, 0.4, 0) -- Start position
         ImageLabel.AnchorPoint = Vector2.new(0.5, 0.5)
-        ImageLabel.Image = "rbxassetid://5009915812" -- New asset ID
+        ImageLabel.Image = "rbxassetid://7967673963" -- New asset ID
         ImageLabel.ImageTransparency = 1.000
 
         local tweenStartBlur = TweenService:Create(Blur, TweenInfo.new(0.70), {Size = 24})
@@ -93,7 +93,7 @@ wait(5)
 getgenv().keytoclick = "Z"
 tool = Instance.new("Tool")
 tool.RequiresHandle = false
-tool.Name = "CatTool😼"
+tool.Name = "Kitler=Tool😼"
 tool.Activated:connect(function()
     local vim = game:service("VirtualInputManager")
 vim:SendKeyEvent(true, keytoclick, false, game)
@@ -145,7 +145,7 @@ game.StarterGui:SetCore("SendNotification", {
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/RewritingScripter1/Files-Of-Script/refs/heads/main/My-Ui-LibraryNew.lua"))()
 
-local Window = Library:CreateWindow(" 😼Cathub.lua", Vector2.new(430, 310), Enum.KeyCode.RightShift)
+local Window = Library:CreateWindow(" 😼Cathub.lua😼", Vector2.new(430, 310), Enum.KeyCode.RightShift)
 
 local AimingTab = Window:CreateTab("Main")
 local MiscTab = Window:CreateTab("Misc")
