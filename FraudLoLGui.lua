@@ -40,8 +40,8 @@ library.theme = {
     topcolor2 = Color3.fromRGB(0, 0, 0),
     buttoncolor = Color3.fromRGB(30, 30, 30),
     buttoncolor2 = Color3.fromRGB(30, 30, 30),
-    itemscolor = Color3.fromRGB(0, 0, 0),
-    itemscolor2 = Color3.fromRGB(0, 0, 0)
+    itemscolor = Color3.fromRGB(255, 255, 255),
+    itemscolor2 = Color3.fromRGB(255, 255, 255)
 }
 
 if library.theme.cursor and Drawing then
