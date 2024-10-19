@@ -36,12 +36,12 @@ library.theme = {
     sectorcolor = Color3.fromRGB(15, 15, 15),
     toptextcolor = Color3.fromRGB(255, 0, 0),
     topheight = 48,
-    topcolor = Color3.fromRGB(15, 15, 15),
-    topcolor2 = Color3.fromRGB(40, 40, 40),
+    topcolor = Color3.fromRGB(0, 0, 0),
+    topcolor2 = Color3.fromRGB(0, 0, 0),
     buttoncolor = Color3.fromRGB(30, 30, 30),
     buttoncolor2 = Color3.fromRGB(30, 30, 30),
-    itemscolor = Color3.fromRGB(200, 200, 200),
-    itemscolor2 = Color3.fromRGB(210, 210, 210)
+    itemscolor = Color3.fromRGB(0, 0, 0),
+    itemscolor2 = Color3.fromRGB(0, 0, 0)
 }
 
 if library.theme.cursor and Drawing then
