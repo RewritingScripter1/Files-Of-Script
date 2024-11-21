@@ -329,7 +329,7 @@ RightGroupBox:AddDropdown('SelectedPart', {
 local RightGroupBox99 = Tabs.Main:AddRightGroupbox('Silent Aim')
 
 RightGroupBox99:AddToggle('Si9282829382991lent', {
-    Text = 'Silent Aim',
+    Text = 'Eanble Silent Aim',
     Default = getgenv().Hallow.SilentAim,
     Callback = function(Value)
         getgenv().Hallow.SilentAim = Value
@@ -1306,7 +1306,7 @@ getgenv().FOVTransparency = 0.8
 getgenv().FOVThickness = 1
 getgenv().FOVColor = Color3.new(0, 0, 0)
 getgenv().ShowFOV = false
-getgenv().FOVSize = 25
+getgenv().FOVSize = 85
 
 
 local FOV = Drawing.new("Circle")
