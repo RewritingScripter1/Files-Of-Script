@@ -23,8 +23,8 @@ local function playIntro()
             local sound = Instance.new("Sound")
             sound.Name = "IntroSound"
             sound.Parent = frame
-            sound.SoundId = "rbxassetid://4559380742"
-            sound.Volume = 10
+            sound.SoundId = "rbxassetid://9067256917"
+            sound.Volume = 9.5
             sound:Play()
 
             local tweenService = game:GetService("TweenService")
