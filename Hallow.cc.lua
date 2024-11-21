@@ -320,7 +320,7 @@ RightGroupBox:AddDropdown('SelectedPart', {
     Default = getgenv().Hallow.SelectedPart == 'Head' and 1 or
               getgenv().Hallow.SelectedPart == 'LowerTorso' and 2 or
               getgenv().Hallow.SelectedPart == 'UpperTorso' and 3 or 4,
-    Text = 'Target Part',
+    Text = 'Hit Part',
     Callback = function(Value)
         getgenv().Hallow.SelectedPart = Value
     end
