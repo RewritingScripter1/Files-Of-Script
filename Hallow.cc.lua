@@ -24,7 +24,7 @@ local function playIntro()
             sound.Name = "IntroSound"
             sound.Parent = frame
             sound.SoundId = "rbxassetid://4559380742"
-            sound.Volume = 2
+            sound.Volume = 5
             sound:Play()
 
             local tweenService = game:GetService("TweenService")
