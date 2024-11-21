@@ -212,7 +212,7 @@ LeftGroupBox:AddToggle('resolvert', {
 })
 
 
-local DickHead = Tabs.Main:AddLeftGroupbox('Cam')
+local DickHead = Tabs.Main:AddLeftGroupbox('Cam Settings')
 
 
 DickHead:AddToggle('CamLock', {
