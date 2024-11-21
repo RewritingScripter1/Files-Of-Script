@@ -363,7 +363,7 @@ Misc:AddButton(
 )
 
 Misc:AddButton(
-    "Macro",
+    "Macro Modified by @•",
     function()
 
     -- Variables and services
