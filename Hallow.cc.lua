@@ -175,7 +175,7 @@ getgenv().Hallow = {
     jumpoffset = 0.09,
     ResolverEnabled = false,
     SelectedPart = "HumanoidRootPart",
-    AutoPrediction = true,
+    AutoPrediction = false,
     AutoPredMode = "PingBased",  
     Macro = "OFF", -- OFF or ON
     ShootDelay = 0.22,
@@ -247,7 +247,7 @@ local sigmaox = Tabs.Main:AddLeftGroupbox('Auto Air')
 
 
 sigmaox:AddToggle('Flicker', {
-    Text = 'Flick',
+    Text = 'Cam Flick',
     Default = getgenv().Hallow.Flick,
     Callback = function(Value)
         getgenv().Hallow.Flick = Value
@@ -265,7 +265,7 @@ sigmaox:AddToggle('Auto Air', {
 sigmaox:AddInput('ShootDelay', {
     Default = tostring(getgenv().Hallow.ShootDelay),
     Numeric = true,
-    Text = 'Shoot Delay',
+    Text = 'Air Delay',
     Callback = function(Value)
         getgenv().Hallow.ShootDelay = tonumber(Value)
     end
