@@ -23,7 +23,7 @@ local function playIntro()
             local sound = Instance.new("Sound")
             sound.Name = "IntroSound"
             sound.Parent = frame
-            sound.SoundId = "rbxassetid://5104257032"
+            sound.SoundId = "rbxassetid://9067256917"
             sound.Volume = 2
             sound:Play()
 
