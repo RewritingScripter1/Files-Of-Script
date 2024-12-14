@@ -30,7 +30,7 @@ print("waypoint three")
 
 local Library = {
 		Open = true;
-		Accent = Color3.fromRGB(255, 1, 175);
+		Accent = Color3.fromRGB(155, 1, 255);
 		Pages = {};
 		Sections = {};
 		Flags = {};
